@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "56529051-379f-43d7-a0b2-c76ce506b3d5",
+  "alias": "SpfxNavRollupWebPart",
+  "componentType": "WebPart",
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Advanced" },
+    "title": { "default": "SpfxNavRollup" },
+    "description": { "default": "SpfxNavRollup description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "SpfxNavRollup",
+      "QueryUrl": "",
+      "Width": 100,
+      "Height": 100,
+      "Margin": 10,
+      "Padding": 10,
+      "Background": "#597EF7",
+      "Color": "white",
+      "Font": "normal normal 14px/14px Helvetica,Arial,Verdana,sans-serif",
+      "Border": "0px solid black",
+      "BorderRadius": "10px",
+      "Gradient": "",
+      "BoxShadow": "5px 10px 10px 1px #888888",
+      "TextAlignment": "center",
+      "VerticalAlignment": "25%"
+    }
+  }]
+}

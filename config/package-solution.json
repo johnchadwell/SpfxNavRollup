@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-nav-rollup-client-side-solution",
+    "id": "e708c9dc-5450-4f7e-80ae-e70b67cee6fa",
+    "version": "1.0.0.2",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SpfxNavRollup description"
+      },
+      "longDescription": {
+        "default": "SpfxNavRollup description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-nav-rollup Feature",
+        "description": "The feature that activates elements of the spfx-nav-rollup solution.",
+        "id": "4a6c8c35-93fe-4dc3-b4a5-1991912625d3",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-nav-rollup.sppkg"
+  }
+}
